@@ -10,14 +10,14 @@ html{
 body{
 
    font-size: 1.2rem;
-   background-image: url('img/samurai.jpg');
+   background-image: url('/proyecto/img/samurai.jpg');
    background-size: cover;
    opacity: 0.9;
    transform: rotate();
 }
 body::before {
     
-    background-image: url('img/samurai.jpg');
+    background-image: url('/proyecto/img/samurai.jpg');
     background-size: cover;
     opacity: 0.7;
     transform: rotate(180deg);
