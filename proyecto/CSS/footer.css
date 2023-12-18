@@ -1,0 +1,38 @@
+/* Estilos para el footer */
+footer {
+    width: 100%;
+    height: 12rem;
+    background-color: #304d4d;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Añadido para centrar verticalmente */
+    padding: 2rem;
+    font-size: small;
+}
+
+/* Estilos para los elementos div dentro del footer */
+.footer-content {
+    display: flex; /* Mostrar en línea (en una fila) */
+    justify-content: space-between; /* Espacio entre los divs */
+    width: 100%; /* Ajustar al 100% del ancho del footer */
+    max-width: 800px; /* Establecer un ancho máximo para el contenido */
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+footer div {
+    font-size: 2rem;
+    color: rgb(228, 197, 197);
+}
+
+/* Estilos específicos para la sección .footer-social */
+.footer-social {
+    /* 'order' no se usa con 'position: absolute;' */
+    /* order: absolute; */
+}
+
+/* Estilos para los enlaces dentro del footer */
+footer a {
+    text-decoration: none;
+    color: rgb(228, 197, 197);
+}
