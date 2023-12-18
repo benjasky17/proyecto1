@@ -10,14 +10,14 @@ html{
 body{
 
    font-size: 1.2rem;
-   background-image: url('img/samurai.jpg');
+   background-image: url('/proyecto/img/samurai.jpg');
    background-size: cover;
    opacity: 0.9;
    transform: rotate();
 }
 body::before {
     
-    background-image: url('img/samurai.jpg');
+    background-image: url('/proyecto/img/samurai.jpg');
     background-size: cover;
     opacity: 0.7;
     transform: rotate(180deg);
@@ -116,13 +116,14 @@ main{
 
 footer{
     width: 100%;
-    height: 10rem;
+    height: 12rem;
     background-color: #304d4d;
     text-align: center;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 2rem;
+    font-size: small;
 
 }
 
@@ -131,7 +132,13 @@ footer div{
     color: rgb(228, 197, 197);
 }
 
+.footer-social{
+    order: absolute;
+}
+
+
 footer a{
     text-decoration: none;
-    color: rgb(228, 197, 197);;
+    color: rgb(228, 197, 197);
+    
 }
